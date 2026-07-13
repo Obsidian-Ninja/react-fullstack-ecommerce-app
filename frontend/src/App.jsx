@@ -10,6 +10,8 @@ import Orders from './pages/Orders'
 import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
+
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/product/:productID' element={<Product />}/>
       </Routes>
+      {/* Footer tag will now be available for all the pages on the bottom */}
+      <Footer />
     </div>
   )
 }

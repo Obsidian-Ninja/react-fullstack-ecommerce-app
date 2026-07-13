@@ -3,6 +3,7 @@ import React from 'react'
 function NewsLetterBox() {
 
     const onSubmitHandler = (event)=>{
+      // This will prevent page loading after submission
         event.preventDefault();
     }
 
